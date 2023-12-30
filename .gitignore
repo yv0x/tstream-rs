@@ -1,0 +1,17 @@
+/target
+/conversations
+token_balance.txt
+notes.md
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.o
+*.obj
+*.a
+#*.exe
+_build/
+bin/
+lib/
+test/

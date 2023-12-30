@@ -1,0 +1,28 @@
+(lang dune 3.12)
+
+(name mv_files)
+
+(generate_opam_files false)
+
+(source
+ (github username/reponame))
+
+(authors "me")
+
+(maintainers "also me")
+
+(license LICENSE)
+
+(documentation https://url/to/documentation)
+
+(package
+ (name mv_files)
+ (synopsis "move old files")
+ (description "This program is used to archive old conversations. 
+ It scans the 'conversations' directory for files from the last month, 
+ and moves them to a new directory named after the month.")
+ (depends ocaml dune)
+ (tags
+  (topics "to describe" your project)))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
