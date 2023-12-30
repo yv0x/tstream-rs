@@ -2,10 +2,10 @@ i lost my cridit card the day before openai billed me so i had to make a wrapper
 this is my first rust project so it's probably stupid and terrible
 
 quick:
-  export $MISTRAL_API_KEY and/or $OPENAI_API_KEY
-  git clone
-  cargo build
-  cargo run (or 'cargo run -- o' for openai, '-- r' for last conversation)
+- export $MISTRAL_API_KEY and/or $OPENAI_API_KEY
+- git clone
+- cargo build
+- cargo run (or 'cargo run -- o' for openai, '-- r' for last conversation)
 
 
 tstream-rs
